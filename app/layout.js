@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='flex flex-col items-center h-screen'>
+      <body suppressHydrationWarning className='flex flex-col items-center h-screen'>
         {/* {Header} aise nhi */}
         {/* aise */}
         <Header/> {/* import components as tag */}
