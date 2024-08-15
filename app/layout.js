@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning className='flex flex-col items-center h-screen'>
         {/* {Header} aise nhi */}
         {/* aise */}
-        <Header/> {/* import components as tag */}
+        <div className="w-full mb-5 py-5 bg-pink-500 flex items-center"><Header/></div> {/* import components as tag */}
         {children}
       </body>
     </html>

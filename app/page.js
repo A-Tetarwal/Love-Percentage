@@ -144,7 +144,7 @@ const page = () => {
       <button 
         onClick={notify}
         className='bg-pink-500 px-3 py-2 rounded-md text-white font-semibold'>
-          Get Love %
+          Love Percent
       </button>
       <Link href={'/HowItWorks'} className='text-blue-500 hover:to-blue-600 text-sm'>How it works?</Link>
       <ToastContainer/>
